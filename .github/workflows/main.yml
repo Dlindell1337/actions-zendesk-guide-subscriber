@@ -32,5 +32,5 @@ jobs:
             echo "No update"
             exit 0
           fi
-          curl -X POST -H "Content-type: application/json; charset=utf-8" -d "{'text': 'Recent Article Updates:\n${{ steps.guide.outputs.articles }}'}" ${{ secrets.SLACK_WEBHOOK }}
+          curl -X POST -H "Content-type: application/json; charset=utf-8" -d "{'text': 'Recent Article Updates:\n${{ steps.guide.outputs.articles }}'}" ${{ secrets.https://hooks.slack.com/services/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 }}
 
